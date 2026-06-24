@@ -255,3 +255,18 @@ The project requires:
 - comtypes
 
 ---
+
+# 🚀 Future Improvements
+
+Possible upgrades:
+
+### AI Based Gesture Recognition
+- Use machine learning models for custom gestures.
+
+# Android Integration
+- Convert the computer vision system into an Android application.
+
+# C++ Optimization
+- Implement performance-critical parts using C++ for faster processing.
+
+---
