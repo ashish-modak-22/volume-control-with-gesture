@@ -203,3 +203,12 @@ Contains:
 This makes the project modular and reusable.
 
 ---
+
+# ⚙️ Installation
+
+### Clone Repository
+```
+git clone https://github.com/ashish-modak-22/volume-control-with-gesture.git
+```
+
+---
