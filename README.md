@@ -5,3 +5,9 @@ The project uses OpenCV for image processing and MediaPipe for real-time hand tr
 This project demonstrates the implementation of Human Computer Interaction (HCI) using computer vision.
 
 ---
+
+# 📌 About The Project
+
+Traditional computer interaction requires physical input devices like keyboards, mice, or buttons to control system functions.
+
+This project creates a touchless interaction system where a user's hand becomes the controller.
