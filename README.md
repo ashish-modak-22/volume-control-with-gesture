@@ -41,3 +41,6 @@ This project creates a touchless interaction system where a user's hand becomes 
 - No external hardware required
 
 ---
+
+# 🛠️ Tech Stack
+- Programming Language : Python
