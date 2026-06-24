@@ -43,42 +43,14 @@ This project creates a touchless interaction system where a user's hand becomes 
 ---
 
 # 🛠️ Tech Stack
-### Programming Language
-- Python
 
-### Computer Vision
-#### 1. OpenCV
+| Technology | Purpose |
+|---|---|
+| **Python** | Primary Programming Language |
+| **OpenCv** | Capturing webcam frames, Processing images, Drawing landmarks, Handling real-time video stream |
+| **MediaPipe** | Detecting hands, Extracting hand landmarks, Tracking finger positions |
+| **NumPy** | Data processing: Converts distance between landmarks to its equivalent volume |
+| **Pycaw** | Accessing Windows audio API, Changing system volume programmatically |
+| **Comtypes** | Used as a dependency for Pycaw communication |
 
-Used for:
-- Capturing webcam frames
-- Processing images
-- Drawing landmarks
-- Handling real-time video stream
-
-
-#### 2. MediaPipe
-
-Used for:
-- Detecting hands
-- Extracting hand landmarks
-- Tracking finger positions
-
-
-### Mathematical Processing
-
-#### NumPy
-
-Used for:
-- Data processing : Conversion of distance between finger landmarks into its equivalent volume
-
-
-### System Control
-
-#### Pycaw
-
-Used for:
-- Accessing Windows audio API
-- Changing system volume programmatically
-
-#### Comtypes
-- Used as a dependency for Pycaw communication.
+---
