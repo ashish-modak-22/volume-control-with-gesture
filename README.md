@@ -182,3 +182,24 @@ Volume-Control-With-Gesture
    └── README.md
 ```
 ---
+
+# 📄 File Explanation
+## main.py
+
+Contains:
+- Main application logic
+- Webcam initialization
+- Gesture processing
+- Volume control
+
+
+## HandTrackingModule.py
+
+Contains:
+- HandDetector class
+- MediaPipe initialization
+- Hand landmark detection functions
+
+This makes the project modular and reusable.
+
+---
