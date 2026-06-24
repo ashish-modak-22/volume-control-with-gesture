@@ -43,4 +43,5 @@ This project creates a touchless interaction system where a user's hand becomes 
 ---
 
 # 🛠️ Tech Stack
-- Programming Language : Python
+### Programming Language
+- Python
