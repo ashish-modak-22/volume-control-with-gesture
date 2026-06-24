@@ -46,7 +46,7 @@ This project creates a touchless interaction system where a user's hand becomes 
 ### Programming Language
 - Python
 
-### Computer Vision
+### -- Computer Vision
 #### 1. OpenCV
 
 Used for:
