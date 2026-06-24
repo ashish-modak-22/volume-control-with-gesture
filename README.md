@@ -54,3 +54,32 @@ This project creates a touchless interaction system where a user's hand becomes 
 | **Comtypes** | Used as a dependency for Pycaw communication |
 
 ---
+
+# 🧠 Working Principle
+
+### The complete workflow:
+
+Webcam
+   |
+   ↓
+Capture Live Video Frames
+   |
+   ↓
+OpenCV Image Processing
+   |
+   ↓
+MediaPipe Hand Detection
+   |
+   ↓
+Extract Hand Landmark Coordinates
+   |
+   ↓
+Calculate Distance Between Fingers
+   |
+   ↓
+Map Distance To Volume Range
+   |
+   ↓
+Control System Volume
+
+---
