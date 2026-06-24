@@ -168,3 +168,17 @@ Finger Distance
 This creates a smooth control system.
 
 ---
+
+# 📂 Project Structure
+```
+Volume-Control-With-Gesture
+   │
+   ├── main.py
+   │
+   ├── HandTrackingModule.py
+   │
+   ├── requirements.txt
+   │
+   └── README.md
+```
+---
