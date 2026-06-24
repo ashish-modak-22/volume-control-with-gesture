@@ -256,6 +256,18 @@ The project requires:
 
 ---
 
+# 🎯 Learning Outcome
+
+### Through this project, concepts learned:
+
+- Working with OpenCV
+- Using MediaPipe models
+- Creating reusable Python modules
+- Handling real-time applications
+- Connecting AI models with system controls
+
+---
+
 # 🚀 Future Improvements
 
 Possible upgrades:
@@ -263,10 +275,11 @@ Possible upgrades:
 ### AI Based Gesture Recognition
 - Use machine learning models for custom gestures.
 
-# Android Integration
+### Android Integration
 - Convert the computer vision system into an Android application.
 
-# C++ Optimization
+### C++ Optimization
 - Implement performance-critical parts using C++ for faster processing.
 
 ---
+
