@@ -92,3 +92,17 @@ This project creates a touchless interaction system where a user's hand becomes 
 └────────────────────────┘
 ```
 ---
+
+# 🔍 Detailed Explanation
+### 1. Webcam Input
+
+The webcam continuously captures live video frames.
+
+Each frame is processed individually to detect hand movement.
+
+OpenCV handles:
+- Camera access
+- Frame reading
+- Image conversion
+- Displaying output
+
