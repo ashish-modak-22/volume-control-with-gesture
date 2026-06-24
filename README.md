@@ -65,7 +65,9 @@ Used for:
 
 
 ### -- Mathematical Processing
-#### NumPy
+<div style="border: 1px solid #ccc; padding: 15px; border-radius: 10px;">
+NumPy
+</div>
 
 Used for:
 - Data processing : Conversion of distance between finger landmarks into its equivalent volume
