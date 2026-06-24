@@ -31,3 +31,13 @@ This project creates a touchless interaction system where a user's hand becomes 
 - Human Computer Interaction
 
 ---
+# ✨ Features
+- Real-time hand detection using webcam
+- Tracks complete hand landmarks
+- Gesture based volume adjustment
+- Smooth volume control
+- Modular Python architecture
+- Fast and lightweight execution
+- No external hardware required
+
+---
