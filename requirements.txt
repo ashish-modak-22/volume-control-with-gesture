@@ -1,0 +1,5 @@
+opencv-python → webcam access, image processing
+mediapipe → hand detection + landmarks
+numpy → used to convert the distance between finger landmarks to its equivalent volume level
+pycaw → Windows volume control
+comtypes → dependency for pycaw to interface with Windows COM objects
