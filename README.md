@@ -65,7 +65,7 @@ Used for:
 
 
 ### -- Mathematical Processing
-<div style="border: 1px solid #ccc; padding: 15px; border-radius: 10px;">
+<div style="border: 1px solid white; padding: 15px; border-radius: 10px;">
 NumPy
 </div>
 
