@@ -106,3 +106,24 @@ OpenCV handles:
 - Image conversion
 - Displaying output
 
+
+### 2. Hand Landmark Detection
+
+- MediaPipe provides a pre-trained hand tracking model.
+
+- It detects 21 different points on the hand.
+
+Example landmarks:
+- Wrist
+- Thumb joints
+- Index finger joints
+- Middle finger joints
+- Ring finger joints
+- Pinky joints
+
+Each landmark contains:
+- X coordinate
+- Y coordinate
+- Z coordinate
+
+These coordinates represent the position of different hand points.
