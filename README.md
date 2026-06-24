@@ -54,3 +54,11 @@ Used for:
 - Processing images
 - Drawing landmarks
 - Handling real-time video stream
+
+
+#### 2. MediaPipe
+
+Used for:
+- Detecting hands
+- Extracting hand landmarks
+- Tracking finger positions
