@@ -45,3 +45,12 @@ This project creates a touchless interaction system where a user's hand becomes 
 # 🛠️ Tech Stack
 ### Programming Language
 - Python
+
+### Computer Vision
+#### 1. OpenCV
+
+Used for:
+- Capturing webcam frames
+- Processing images
+- Drawing landmarks
+- Handling real-time video stream
