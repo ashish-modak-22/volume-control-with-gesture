@@ -46,7 +46,7 @@ This project creates a touchless interaction system where a user's hand becomes 
 ### Programming Language
 - Python
 
-### -- Computer Vision
+### Computer Vision
 #### 1. OpenCV
 
 Used for:
@@ -64,9 +64,21 @@ Used for:
 - Tracking finger positions
 
 
-### -- Mathematical Processing
+### Mathematical Processing
 
 #### NumPy
 
 Used for:
 - Data processing : Conversion of distance between finger landmarks into its equivalent volume
+
+
+### System Control
+
+#### Pycaw
+
+Used for:
+- Accessing Windows audio API
+- Changing system volume programmatically
+
+#### Comtypes
+- Used as a dependency for Pycaw communication.
