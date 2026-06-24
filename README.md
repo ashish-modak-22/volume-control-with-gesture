@@ -11,3 +11,11 @@ This project demonstrates the implementation of Human Computer Interaction (HCI)
 Traditional computer interaction requires physical input devices like keyboards, mice, or buttons to control system functions.
 
 This project creates a touchless interaction system where a user's hand becomes the controller.
+
+Using a webcam:
+
+- The hand is detected in real time
+- Important hand points are extracted
+- Finger movement is analyzed
+- Gesture distance is converted into volume level
+- System volume changes dynamically
