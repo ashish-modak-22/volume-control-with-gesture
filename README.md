@@ -212,10 +212,14 @@ git clone https://github.com/ashish-modak-22/volume-control-with-gesture.git
 ```
 
 ### Navigate Into Project
-- cd volume-control-with-gesture
+```
+cd volume-control-with-gesture
+```
 
 ### Create Virtual Environment
-- python -m venv venv
+```
+python -m venv venv
+```
 
 ### Activate Virtual Environment
 
@@ -228,6 +232,7 @@ venv\Scripts\activate
 ```
  pip install -r requirements.txt
 ```
+
 ---
 
 # ▶️ Run The Project
@@ -237,3 +242,16 @@ Start the application:
  python main.py
 ```
  Allow webcam permission and perform hand gestures in front of the camera.
+
+---
+
+# 📦 Requirements
+
+The project requires:
+- opencv-python
+- mediapipe
+- numpy
+- pycaw
+- comtypes
+
+---
