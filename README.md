@@ -62,3 +62,10 @@ Used for:
 - Detecting hands
 - Extracting hand landmarks
 - Tracking finger positions
+
+
+### -- Mathematical Processing
+#### NumPy
+
+Used for:
+- Data processing : Conversion of distance between finger landmarks into its equivalent volume
