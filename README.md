@@ -211,11 +211,29 @@ This makes the project modular and reusable.
 git clone https://github.com/ashish-modak-22/volume-control-with-gesture.git
 ```
 
-## Navigate Into Project
+### Navigate Into Project
 - cd volume-control-with-gesture
 
-## Create Virtual Environment
+### Create Virtual Environment
 - python -m venv venv
 
+### Activate Virtual Environment
+
+Windows:
+```
+venv\Scripts\activate
+```
+
+### Install Dependencies
+```
+ pip install -r requirements.txt
+```
 ---
 
+# ▶️ Run The Project
+
+Start the application:
+```
+ python main.py
+```
+ Allow webcam permission and perform hand gestures in front of the camera.
