@@ -94,7 +94,7 @@ This project creates a touchless interaction system where a user's hand becomes 
 ---
 
 # 🔍 Detailed Explanation
-### 1. Webcam Input
+## 1. Webcam Input
 
 The webcam continuously captures live video frames.
 
@@ -107,7 +107,7 @@ OpenCV handles:
 - Displaying output
 
 
-### 2. Hand Landmark Detection
+## 2. Hand Landmark Detection
 
 - MediaPipe provides a pre-trained hand tracking model.
 
@@ -127,3 +127,44 @@ Each landmark contains:
 - Z coordinate
 
 These coordinates represent the position of different hand points.
+
+
+## 3. Gesture Recognition Logic
+
+The project uses the distance between:
+
+- Thumb Tip + Index Finger Tip to recognize the gesture.
+
+- The distance is calculated using Euclidean distance:
+
+- distance = √((x2-x1)² + (y2-y1)²)
+
+When the fingers move:
+- Distance increases → Volume increases
+- Distance decreases → Volume decreases
+
+
+## 4. Volume Mapping
+
+Raw finger distance values are converted into a volume range.
+
+Example:
+```
+Finger Distance
+
+20 pixels
+
+      ↓
+
+0% Volume
+
+
+150 pixels
+
+      ↓
+
+100% Volume
+```
+This creates a smooth control system.
+
+---
