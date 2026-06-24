@@ -12,10 +12,22 @@ Traditional computer interaction requires physical input devices like keyboards,
 
 This project creates a touchless interaction system where a user's hand becomes the controller.
 
-Using a webcam:
+### Using a webcam:
 
 - The hand is detected in real time
 - Important hand points are extracted
 - Finger movement is analyzed
 - Gesture distance is converted into volume level
 - System volume changes dynamically
+
+---
+
+### The main objective of this project is to explore:
+
+- Computer Vision
+- Hand Tracking
+- Gesture Recognition
+- Real-Time Image Processing
+- Human Computer Interaction
+
+---
