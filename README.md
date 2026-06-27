@@ -139,7 +139,7 @@ The project uses the distance between:
 
 - The distance is calculated using Euclidean distance:
 
-- distance = √((x2-x1)² + (y2-y1)²)
+- distance = √((x2-x1)² + (y2-y1)²) or you      can use NumPy
 
 When the fingers move:
 - Distance increases → Volume increases
