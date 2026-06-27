@@ -18,12 +18,12 @@ min_vol = vol_range[0]
 max_vol = vol_range[1]
 vol = 0
 
-print(min_vol, max_vol)
 
-
+# Accessing the default webcam ( 0 = primary webcam )
 cap = cv2.VideoCapture(0)
 
 
+# Create a hand detector object to access the methods of HandTrackingModule
 detector = htm.HandDetector(
     maxHands=1,
     detectionCon=0.5
@@ -53,12 +53,12 @@ while True:
 
     if landmark_list:
 
-        # Get the thumb and index finger tip coordinates
+        # Get the thumb and index finger tip coordinates  ----> (x1, y1) and (x2, y2) are the coordinates of the thumb and index finger respectively
         x1, y1 = landmark_list[4][1], landmark_list[4][2]
         x2, y2 = landmark_list[8][1], landmark_list[8][2]
 
 
-        # Calculating the distance
+        # Calculating the distance between the thumb and index finger, the main tool of this project, it will later help us controlling the sound
         distance = detector.findDistance(
             4,
             8,
@@ -66,7 +66,7 @@ while True:
         )
 
 
-        # Mapping the distance value to its equivalent volume
+        # Mapping the distance value to its equivalent volumen using NumPy methods
         target_vol = np.interp(
             distance,
             [20,100],
@@ -74,6 +74,7 @@ while True:
         )
 
 
+        # Smoothly adjust the volume to avoid sudden changes caused my small hand movements or detection noises
         vol = vol * 0.8 + target_vol * 0.2
 
 
