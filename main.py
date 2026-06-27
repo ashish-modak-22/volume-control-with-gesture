@@ -78,7 +78,7 @@ while True:
         vol = vol * 0.8 + target_vol * 0.2
 
 
-
+        # Apply the calculated volume level to the system audio output.
         volume.SetMasterVolumeLevel(
             vol,
             None
@@ -86,6 +86,7 @@ while True:
 
 
 
+        # Converting the volume into percentage using NumPy method by setting up the volume range 
         vol_percent = np.interp(
             vol, 
             [min_vol, max_vol],
@@ -114,7 +115,7 @@ while True:
         )
 
 
-
+        # Dynamic rectangle bar, the length of the rectange will change according to the volume
         cv2.rectangle(
             img, 
             (50, int(400-(vol_percent * 3))),
@@ -125,7 +126,7 @@ while True:
 
 
 
-        # Drawing the line between the fingers
+        # Drawing the line between the fingers for better understanding 
         cv2.line(
             img,
             (x1, y1),
@@ -154,10 +155,6 @@ while True:
             (255, 0, 255),
             cv2.FILLED
         )
-
-
-
-        print(distance)
 
 
 
