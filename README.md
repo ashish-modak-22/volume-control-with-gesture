@@ -16,8 +16,8 @@ This project creates a touchless interaction system where a user's hand becomes 
 
 ---
 
-# Real Time Use
-You can use this gesture while playing a video on youtube. Every time you want to change the sound whether using system speaker or headphone, you only need to play with your thumb and index finger and don't need to bother about buttons
+# ✨ Real Time Use ✨
+You can use this gesture while playing a video on youtube. Every time you want to change the sound whether using system speaker or headphone, you only need to play with your thumb and index finger and don't need to bother about buttons.
 
 ---
 
